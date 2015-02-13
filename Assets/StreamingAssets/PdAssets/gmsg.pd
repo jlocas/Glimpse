@@ -1,0 +1,34 @@
+#N canvas 0 0 601 531 10;
+#X obj 131 158 hradio 15 1 0 8 empty empty Area 0 -8 0 10 -262144 -1
+-1 0;
+#X floatatom 131 178 5 0 0 0 - - -;
+#X obj 357 212 s glimpse_area;
+#X obj 132 220 hsl 128 15 0 1 0 0 empty empty Glimpse_distance -2 -8
+0 10 -262144 -1 -1 0 1;
+#X floatatom 129 240 5 0 0 0 - - -;
+#X obj 349 302 s glimpse_distance;
+#X obj 131 278 hradio 15 1 0 8 empty empty GlimpsesDone 0 -8 0 10 -262144
+-1 -1 0;
+#X floatatom 131 298 5 0 0 0 - - -;
+#X obj 131 326 tgl 15 0 empty empty Music_toggle 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 130 397 s Music_toggle;
+#X obj 131 344 bng 15 250 50 0 empty empty Generate 17 7 0 10 -262144
+-1 -1;
+#X obj 251 411 s music_clock_reset;
+#X obj 131 362 bng 15 250 50 0 empty empty Reset 17 7 0 10 -262144
+-1 -1;
+#X obj 1 417 s music_generate;
+#X obj 251 431 s music_clock_resetClock;
+#X obj 348 342 s glimpse_glimpsesDone;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 6 0 7 0;
+#X connect 7 0 15 0;
+#X connect 8 0 9 0;
+#X connect 10 0 13 0;
+#X connect 12 0 11 0;
+#X connect 12 0 14 0;
+#X coords 0 -1 1 1 200 300 1 100 100;

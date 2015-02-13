@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  tags:
+  - Terrain
+  - Waypoint
+  - Water
+  - Test
+  - Fader
+  - Stone
+  - 
+  Builtin Layer 0: Default
+  Builtin Layer 1: TransparentFX
+  Builtin Layer 2: Ignore Raycast
+  Builtin Layer 3: 
+  Builtin Layer 4: Water
+  Builtin Layer 5: UI
+  Builtin Layer 6: 
+  Builtin Layer 7: 
+  User Layer 8: Glimpse Test
+  User Layer 9: Glimpse Objects
+  User Layer 10: Bridge Glimpse
+  User Layer 11: Ramp Glimpse
+  User Layer 12: Head 1 Glimpse
+  User Layer 13: Head 2 Glimpse
+  User Layer 14: Head 3 Glimpse
+  User Layer 15: Head 4 Glimpse
+  User Layer 16: Platform 1 Glimpse
+  User Layer 17: Platform 2 Glimpse
+  User Layer 18: Platform 3 Glimpse
+  User Layer 19: Platform 4 Glimpse
+  User Layer 20: Collectible 1 Glimpse
+  User Layer 21: Collectible 2 Glimpse
+  User Layer 22: 
+  User Layer 23: 
+  User Layer 24: 
+  User Layer 25: 
+  User Layer 26: 
+  User Layer 27: 
+  User Layer 28: 
+  User Layer 29: Player Character
+  User Layer 30: Glimpse Projectors
+  User Layer 31: Glimpse Targets
+  m_SortingLayers:
+  - name: Default
+    userID: 0
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,4 @@
+#N canvas 274 284 450 598 10;
+#X obj 237 -98 scaleman;
+#X obj 11 -255 mclock;
+#X obj 39 -27 scaleman_reader;
