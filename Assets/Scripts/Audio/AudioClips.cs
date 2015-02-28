@@ -66,7 +66,7 @@ public class AudioClips : MonoBehaviour {
 	{
 		if (i == -1)
 		{
-			i = Random.Range(0, dollsAhemFX.Length);
+			i = Random.Range(0, dollsAhemFX.Length - 1);
 		}
 		
 		AudioClip clip = dollsAhemFX[i];
@@ -77,7 +77,7 @@ public class AudioClips : MonoBehaviour {
 	{
 		if (i == -1)
 		{
-			i = Random.Range(0, dollsBooFX.Length);
+			i = Random.Range(0, dollsBooFX.Length - 1);
 		}
 		
 		AudioClip clip = dollsBooFX[i];
@@ -88,7 +88,7 @@ public class AudioClips : MonoBehaviour {
 	{
 		if (i == -1)
 		{
-			i = Random.Range(0, dollsCackleFX.Length);
+			i = Random.Range(0, dollsCackleFX.Length - 1);
 		}
 		
 		AudioClip clip = dollsCackleFX[i];
@@ -99,7 +99,7 @@ public class AudioClips : MonoBehaviour {
 	{
 		if (i == -1)
 		{
-			i = Random.Range(0, dollsGaspFX.Length);
+			i = Random.Range(0, dollsGaspFX.Length - 1);
 		}
 		
 		AudioClip clip = dollsGaspFX[i];
@@ -110,7 +110,7 @@ public class AudioClips : MonoBehaviour {
 	{
 		if (i == -1)
 		{
-			i = Random.Range(0, dollsGiggleFX.Length);
+			i = Random.Range(0, dollsGiggleFX.Length - 1);
 		}
 		
 		AudioClip clip = dollsGiggleFX[i];
@@ -121,7 +121,7 @@ public class AudioClips : MonoBehaviour {
 	{
 		if (i == -1)
 		{
-			i = Random.Range(0, dollsOopsFX.Length);
+			i = Random.Range(0, dollsOopsFX.Length - 1);
 		}
 		
 		AudioClip clip = dollsOopsFX[i];
@@ -132,7 +132,7 @@ public class AudioClips : MonoBehaviour {
 	{
 		if (i == -1)
 		{
-			i = Random.Range(0, dollsShushFX.Length);
+			i = Random.Range(0, dollsShushFX.Length - 1);
 		}
 		
 		AudioClip clip = dollsShushFX[i];
@@ -143,7 +143,7 @@ public class AudioClips : MonoBehaviour {
 	{
 		if (i == -1)
 		{
-			i = Random.Range(0, dollsUhOhFX.Length);
+			i = Random.Range(0, dollsUhOhFX.Length - 1);
 		}
 		
 		AudioClip clip = dollsUhOhFX[i];
@@ -154,7 +154,7 @@ public class AudioClips : MonoBehaviour {
 	{
 		if (i == -1)
 		{
-			i = Random.Range(0, dollsWhispersFX.Length);
+			i = Random.Range(0, dollsWhispersFX.Length - 1);
 		}
 		
 		AudioClip clip = dollsWhispersFX[i];
@@ -166,7 +166,7 @@ public class AudioClips : MonoBehaviour {
 	{
 		if (i == -1)
 		{
-			i = Random.Range(0, dollsAhem.Length);
+			i = Random.Range(0, dollsAhem.Length - 1);
 		}
 
 		AudioClip clip = dollsAhem[i];
@@ -177,7 +177,7 @@ public class AudioClips : MonoBehaviour {
 	{
 		if (i == -1)
 		{
-			i = Random.Range(0, dollsBoo.Length);
+			i = Random.Range(0, dollsBoo.Length - 1);
 		}
 		
 		AudioClip clip = dollsBoo[i];
@@ -188,7 +188,7 @@ public class AudioClips : MonoBehaviour {
 	{
 		if (i == -1)
 		{
-			i = Random.Range(0, dollsCackle.Length);
+			i = Random.Range(0, dollsCackle.Length - 1);
 		}
 		
 		AudioClip clip = dollsCackle[i];
@@ -199,7 +199,7 @@ public class AudioClips : MonoBehaviour {
 	{
 		if (i == -1)
 		{
-			i = Random.Range(0, dollsGasp.Length);
+			i = Random.Range(0, dollsGasp.Length - 1);
 		}
 		
 		AudioClip clip = dollsGasp[i];
@@ -210,7 +210,7 @@ public class AudioClips : MonoBehaviour {
 	{
 		if (i == -1)
 		{
-			i = Random.Range(0, dollsGiggle.Length);
+			i = Random.Range(0, dollsGiggle.Length - 1);
 		}
 		
 		AudioClip clip = dollsGiggle[i];
@@ -221,7 +221,7 @@ public class AudioClips : MonoBehaviour {
 	{
 		if (i == -1)
 		{
-			i = Random.Range(0, dollsOops.Length);
+			i = Random.Range(0, dollsOops.Length - 1);
 		}
 		
 		AudioClip clip = dollsOops[i];
@@ -232,7 +232,7 @@ public class AudioClips : MonoBehaviour {
 	{
 		if (i == -1)
 		{
-			i = Random.Range(0, dollsShush.Length);
+			i = Random.Range(0, dollsShush.Length - 1);
 		}
 		
 		AudioClip clip = dollsShush[i];
@@ -243,7 +243,7 @@ public class AudioClips : MonoBehaviour {
 	{
 		if (i == -1)
 		{
-			i = Random.Range(0, dollsUhOh.Length);
+			i = Random.Range(0, dollsUhOh.Length - 1);
 		}
 		
 		AudioClip clip = dollsUhOh[i];
@@ -254,7 +254,7 @@ public class AudioClips : MonoBehaviour {
 	{
 		if (i == -1)
 		{
-			i = Random.Range(0, dollsWhispers.Length);
+			i = Random.Range(0, dollsWhispers.Length - 1);
 		}
 		
 		AudioClip clip = dollsWhispers[i];
@@ -264,79 +264,79 @@ public class AudioClips : MonoBehaviour {
 
 	public AudioClip DirtRun()
 	{
-		AudioClip clip = dirtRun[Random.Range(0, dirtRun.Length)];
+		AudioClip clip = dirtRun[Random.Range(0, dirtRun.Length - 1)];
 		return clip;
 	}
 	
 	public AudioClip DirtWalk()
 	{
-		AudioClip clip = dirtWalk[Random.Range(0, dirtWalk.Length)];
+		AudioClip clip = dirtWalk[Random.Range(0, dirtWalk.Length - 1)];
 		return clip;
 	}
 	
 	public AudioClip DirtJump()
 	{
-		AudioClip clip = dirtJump[Random.Range(0, dirtJump.Length)];
+		AudioClip clip = dirtJump[Random.Range(0, dirtJump.Length - 1)];
 		return clip;
 	}
 	
 	public AudioClip DirtLand()
 	{
-		AudioClip clip = dirtLand[Random.Range(0, dirtLand.Length)];
+		AudioClip clip = dirtLand[Random.Range(0, dirtLand.Length - 1)];
 		return clip;
 	}
 	
 	public AudioClip GrassRun()
 	{
-		AudioClip clip = grassRun[Random.Range(0, grassRun.Length)];
+		AudioClip clip = grassRun[Random.Range(0, grassRun.Length - 1)];
 		return clip;
 	}
 	
 	public AudioClip GrassWalk()
 	{
-		AudioClip clip = grassWalk[Random.Range(0, grassWalk.Length)];
+		AudioClip clip = grassWalk[Random.Range(0, grassWalk.Length - 1)];
 		return clip;
 	}
 	
 	public AudioClip GrassJump()
 	{
-		AudioClip clip = grassJump[Random.Range(0, grassJump.Length)];
+		AudioClip clip = grassJump[Random.Range(0, grassJump.Length - 1)];
 		return clip;
 	}
 	
 	public AudioClip GrassLand()
 	{
-		AudioClip clip = grassLand[Random.Range(0, grassLand.Length)];
+		AudioClip clip = grassLand[Random.Range(0, grassLand.Length - 1)];
 		return clip;
 	}
 	
 	public AudioClip StoneRun()
 	{
-		AudioClip clip = stoneRun[Random.Range(0, stoneRun.Length)];
+		AudioClip clip = stoneRun[Random.Range(0, stoneRun.Length - 1)];
 		return clip;
 	}
 	
 	public AudioClip StoneWalk()
 	{
-		AudioClip clip = stoneWalk[Random.Range(0, stoneWalk.Length)];
+		AudioClip clip = stoneWalk[Random.Range(0, stoneWalk.Length - 1)];
 		return clip;
 	}
 	
 	public AudioClip StoneJump()
 	{
-		AudioClip clip = stoneJump[Random.Range(0, stoneJump.Length)];
+		AudioClip clip = stoneJump[Random.Range(0, stoneJump.Length - 1)];
 		return clip;
 	}
 	
 	public AudioClip StoneLand()
 	{
-		AudioClip clip = stoneLand[Random.Range(0, stoneLand.Length)];
+		AudioClip clip = stoneLand[Random.Range(0, stoneLand.Length - 1)];
 		return clip;
 	}
 	
 	public AudioClip WaterWalk()
 	{
-		AudioClip clip = waterWalk[Random.Range(0, stoneLand.Length)];
+		AudioClip clip = waterWalk[Random.Range(0, stoneLand.Length - 1)];
 		return clip;
 	}
 }

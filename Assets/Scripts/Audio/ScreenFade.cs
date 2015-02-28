@@ -10,6 +10,8 @@ public class ScreenFade : MonoBehaviour {
 	public float fadeOutSpeed = 0.25f;
 	public bool start = false;
 	public bool end = false;
+	public Camera[] cameras;
+	public GameObject soundSystems;
 	int count = 0;
 	
 	void Awake ()
@@ -38,6 +40,18 @@ public class ScreenFade : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		if(Input.GetButtonUp("Cancel")){
+
+
+
+			Application.LoadLevel(Application.loadedLevel);
+
+			
+			
+			LibPD.ReInit ();
+			
+		}
+
 		if(Input.GetButtonUp("Start")){
 			count += 1;
 
@@ -45,6 +59,10 @@ public class ScreenFade : MonoBehaviour {
 				start = true;
 			} else {
 				end = true;
+			}
+
+			foreach (Camera cameraToGo in cameras) {
+				cameraToGo.enabled = false;
 			}
 
 		}

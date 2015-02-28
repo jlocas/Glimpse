@@ -38,54 +38,54 @@ public class UnseenActionsTrigger : MonoBehaviour {
 			{
 				
 			case 0:
-				i = Random.Range(0, clips.dollsBoo.Length);
+				i = Random.Range(0, clips.dollsBoo.Length - 1);
 				
 				audioplayer.Play(clips.DollsBoo(i), gameObject, 1, 0.0F, volume);
 				
-				audioplayer.Play(clips.DollsBooFX(i), fxSource, 2, 0.0F, fxVolume);
+				audioplayer.Play(clips.DollsBoo(i), fxSource, 2, 0.0F, fxVolume);
 				
 				break;
 			case 1:
-				i = Random.Range(0, clips.dollsCackle.Length);
+				i = Random.Range(0, clips.dollsCackle.Length - 1);
 				
 				audioplayer.Play(clips.DollsCackle(i), gameObject, 1, 0.0F, volume);
-				gameObject.audio.volume -= volume;
+
 				
-				audioplayer.Play(clips.DollsCackleFX(i), fxSource, 2, 0.0F, fxVolume);
+				audioplayer.Play(clips.DollsCackle(i), fxSource, 2, 0.0F, fxVolume);
 				
 				break;
 			case 2:
-				i = Random.Range(0, clips.dollsGasp.Length);
+				i = Random.Range(0, clips.dollsGasp.Length - 1);
 				
 				audioplayer.Play(clips.DollsGasp(i), gameObject, 1, 0.0F, volume);
-				gameObject.audio.volume -= volume;
+
 				
-				audioplayer.Play(clips.DollsGaspFX(i), fxSource, 2, 0.0F, fxVolume);
+				audioplayer.Play(clips.DollsGasp(i), fxSource, 2, 0.0F, fxVolume);
 				
 				break;
 			case 3:
-				i = Random.Range(0, clips.dollsGiggle.Length);
+				i = Random.Range(0, clips.dollsGiggle.Length - 1);
 				
 				audioplayer.Play(clips.DollsGiggle(i), gameObject, 1, 0.0F, volume);
-				gameObject.audio.volume -= volume;
+
 				
-				audioplayer.Play(clips.DollsGiggleFX(i), fxSource, 2, 0.0F, fxVolume);
+				audioplayer.Play(clips.DollsGiggle(i), fxSource, 2, 0.0F, fxVolume);
 				
 				break;
 			case 4:
-				i = Random.Range(0, clips.dollsShush.Length);
+				i = Random.Range(0, clips.dollsShush.Length - 1);
 				
 				audioplayer.Play(clips.DollsShush(i), gameObject, 1, 0.0F, volume);
-				gameObject.audio.volume -= volume;
+
 				
-				audioplayer.Play(clips.DollsShushFX(i), fxSource, 2, 0.0F, fxVolume);
+				audioplayer.Play(clips.DollsShush(i), fxSource, 2, 0.0F, fxVolume);
 				
 				break;
 			case 5:
-				i = Random.Range(0, clips.dollsWhispers.Length);
+				i = Random.Range(0, clips.dollsWhispers.Length - 1);
 				
 				audioplayer.Play(clips.DollsWhispers(i), gameObject, 1, 0.0F, volume);
-				gameObject.audio.volume -= volume;
+
 				
 				audioplayer.Play(clips.DollsWhispers(i), fxSource, 2, 0.0F, fxVolume);
 				
